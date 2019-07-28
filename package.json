@@ -13,7 +13,7 @@
         "email": "iganevru@gmail.com"
     },
     "engines": {
-        "vscode": "^1.36.0"
+        "vscode": "*"
     },
     "categories": [
         "Themes"
