@@ -4,10 +4,14 @@
     "description": "Based on New Moon Syntax Theme",
     "version": "0.0.1",
     "publisher": "ganevru",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ganevru/solid-moon-theme"
-  },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ganevru/solid-moon-theme"
+    },
+    "author": {
+        "name": "Ivan Ganev",
+        "email": "iganevru@gmail.com"
+    },
     "engines": {
         "vscode": "^1.36.0"
     },
