@@ -1,0 +1,21 @@
+{
+    "name": "solid-moon-theme",
+    "displayName": "solid moon theme",
+    "description": "Based on New Moon Syntax Theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.36.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "solid moon theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/solid-moon.json"
+            }
+        ]
+    }
+}
