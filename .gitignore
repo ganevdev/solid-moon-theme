@@ -4,3 +4,4 @@ node_modules
 *.log
 explorations
 vsc-extension-quickstart.md
+*.vsix
