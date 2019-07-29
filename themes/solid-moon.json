@@ -2,6 +2,14 @@
   "name": "New Moon",
   "type": "dark",
   "colors": {
+    "editorGutter.modifiedBackground": "#3d484b",
+    "editorGutter.addedBackground": "#535c46",
+    "editorGutter.deletedBackground": "#644d4f",
+    "gitDecoration.modifiedResourceForeground": "#c8e2e7",
+    "gitDecoration.untrackedResourceForeground": "#c5d3b3",
+    "gitDecoration.deletedResourceForeground": "#d8a1a5",
+    "gitDecoration.ignoredResourceForeground": "#939bad77",
+    "gitDecoration.conflictingResourceForeground": "#db8a8f",
     "scrollbar.shadow": "#2d2d2d",
     "widget.shadow": "#2d2d2d",
     "panel.border": "#95a29d00",
@@ -14,7 +22,7 @@
     "editor.selection": "#414141",
     "editor.selectionBackground": "#687F7B66",
     "editor.whitespaces": "#555555",
-    "editorCursor.foreground": "#ffeea6",
+    "editorCursor.foreground": "#b6af8f",
     "editorSuggestWidget.highlightForeground": "#FFD479",
     "editorSuggestWidget.background": "#2d2d2d",
     "editorSuggestWidget.Hoverbackground": "#444444",
@@ -56,7 +64,6 @@
     "list.focusBackground": "#101010",
     "editorBracketMatch.background": "#101010",
     "editorBracketMatch.border": "#ffffff",
-    "editorError.foreground": "#f2777a",
     "panel.background": "#2d2d2d",
     "inputOption.activeBorder": "#FFD479",
     "inputValidation.warningBorder": "#f2777a",
@@ -90,7 +97,7 @@
     "peekViewResult.selectionBackground": "#444444",
     "peekViewEditor.matchHighlightBackground": "#2d2d2d",
     "peekViewResult.matchHighlightBackground": "#2d2d2d"
-
+    
   },
   "tokenColors": [
     {
