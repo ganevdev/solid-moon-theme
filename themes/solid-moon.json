@@ -213,7 +213,7 @@
         "foreground": "#62CFCF"
       },
       "name": "Variable Alternative",
-      "scope": "entity.other.attribute-name.pseudo-class.css, constant.other.php, markup.italic.markdown, punctuation.definition.italic.markdown, string.regexp, entity.other.attribute-name.pseudo-element.css, meta.image.inline.markdown, string.other.link.description.markdown"
+      "scope": "entity.other.attribute-name.pseudo-class.css, constant.other.php, string.regexp, entity.other.attribute-name.pseudo-element.css, meta.image.inline.markdown, string.other.link.description.markdown"
     },
     {
       "settings": {
@@ -221,7 +221,28 @@
       },
       "name": "Property",
       "scope": "entity.name.tag.reference, meta.embedded.block.php, meta.embedded.line.php, keyword.other.phpdoc.php, meta.separator, variable.object.property.ts, variable.object.property.tsx, variable.other.property.js, support.variable.property.dom.js, support.type.property-name.json, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, entity.name.type.instance.jsdoc, variable.graphql"
-    }
+    },
+    {
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#b3b9c5"
+      },
+      "name": "[MARKDOWN] - Emphasis Bold",
+      "scope": [
+        "markup.bold.markdown",
+        "markup.bold.markdown punctuation.definition.bold.markdown"
+      ]
+    },
+    {
+      "name": "[MARKDOWN] - Emphasis Italic",
+      "scope": [
+        "markup.italic.markdown", "punctuation.definition.italic.markdown"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#b3b9c5"
+      }
+    },
   ],
   "colorSpaceName": "sRGB"
 }

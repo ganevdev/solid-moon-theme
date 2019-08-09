@@ -2,8 +2,11 @@
     "name": "solid-moon-theme",
     "displayName": "Solid Moon Theme",
     "description": "Based on New Moon Syntax Theme",
-    "version": "0.0.5",
+    "version": "0.0.7",
     "publisher": "ganevru",
+    "scripts": {
+        "pack": "vsce package"
+    },
     "repository": {
         "type": "git",
         "url": "https://github.com/ganevru/solid-moon-theme"
@@ -21,7 +24,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "solid moon theme",
+                "label": "Solid Moon Theme",
                 "uiTheme": "vs-dark",
                 "path": "./themes/solid-moon.json"
             }
